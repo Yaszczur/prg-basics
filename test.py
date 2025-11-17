@@ -46,3 +46,28 @@ x = 1
 while x < 5:
     print("Hello")
     x = x + 1 <---mega wazne!!!
+
+def tekst():
+    print("Krakow")
+    print("Poland")
+
+
+    print("Start")
+    tekst()
+    print("Dalej")
+    tekst()
+
+
+
+    def dodaj(n1,n2):
+        suma = n1 + n2
+        return suma
+
+        print("Start")
+
+
+        wynik1 = dodaj(7,12)
+
+        wynik2 = dodaj(31,78)
+
+
