@@ -71,3 +71,26 @@ def tekst():
         wynik2 = dodaj(31,78)
 
 
+
+        arr = [32,45,76,12,81]
+        print( arr[3] )
+        arr[4] = 14
+
+        arr[0] #pierwsza wartość#
+        arr[-1] #ostatnia wartość ale tylko w python#
+
+        n = len(arr)
+        arr[len(arr1)-1] #ostatnia wartość we wszystkich językach
+
+        arr[lne(arr)//2]
+
+        arr[1:3]
+
+        for element in arr:
+            print(element)
+
+            n = 0
+
+            while n < len(arr):
+                arr[n] = 0
+                n = n + 1
