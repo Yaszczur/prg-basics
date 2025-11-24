@@ -94,3 +94,16 @@ def tekst():
             while n < len(arr):
                 arr[n] = 0
                 n = n + 1
+
+
+                #proces debuggowania
+                suma = 0
+                n = 1
+
+                while n <= 5:
+                    suma = suma + n 
+                    n = n + 1
+
+                    print(suma)
+
+                    #kropeczki przy linijkach run and debug
