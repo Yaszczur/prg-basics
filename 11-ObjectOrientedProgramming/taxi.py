@@ -10,10 +10,8 @@ class TaxiRide:
 
 
 def main():
-    # your program
-    ...
-    ...
-    ...
+    #write your program
+    
 
 if __name__ == "__main__":
     main()
