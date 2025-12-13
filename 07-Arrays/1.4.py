@@ -7,4 +7,9 @@ print('Second Value:', arr[1])
 print('Last Value:', arr[-1])
 print('Last but one Value:', arr[-2])
 print('Sum of first and last Value:', arr[0] + arr[-1])
-print('Middle Value:', )
+middleindex = len(arr)//2
+print('Middle Value:', arr[middleindex])
+output = ""
+for i in arr:
+    output += str(i) + " "
+print('All array values separated by single space:', output)
